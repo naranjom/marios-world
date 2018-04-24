@@ -69,3 +69,4 @@ _seq ()
     echo "$lower"
 }
 
+alias djup='cd Dropbox/notebooks/GradSchool ; jupyter-notebook'
