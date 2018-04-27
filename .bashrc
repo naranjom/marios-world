@@ -135,3 +135,11 @@ export PATH=$NCARG_ROOT/bin:$PATH
 export PALM_BIN=/home/mariornaranjo/palm/current_version/trunk/SCRIPTS
 export PATH=$PALM_BIN:$PATH
 #-------------------------------------------------------------------------------
+
+## MRN added for use of Nek5000
+export PATH=/home/mariornaranjo/Nek5000/bin:$PATH
+
+## MRN added for use of ParaView
+export PATH=/home/mariornaranjo/ParaView/bin:$PATH
+export PYTHONPATH=$PYTHONPATH:/home/mariornaranjo/bin/ParaView/Utilities/VTKPythonWrapping/site-packages #fixes "no module named paraview"
+export PYTHONPATH=$PYTHONPATH:/home/mariornaranjo/bin/ParaView/bin #fixes "ImportError: No module named libvtkCommonPython"
