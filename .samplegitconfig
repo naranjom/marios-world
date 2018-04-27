@@ -1,0 +1,7 @@
+[user]
+	name = doej
+	email = doej@jdu.edu
+[core]
+	editor = emacs
+[credential]
+	helper = cache --timeout=43200
